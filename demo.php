@@ -5,7 +5,7 @@ require_once "RWCN.php";
 $do = $_GET['do'] ?: $_POST['do'] ?: die("未知操作");
 
 $rts = new RW_CN();
-$rts->setUIA("");
+$rts->setUIA("NjE0L3kxYTMvN15fNyxhYSk3K2VlLDExLyswMixgLVljXTJeYl4zMGE3X103MWUsKGApLzNhMTMtKzg0NGJfXTUsLTBi");
 if ($do == "sign") {
     echo($rts->sign());
 }
